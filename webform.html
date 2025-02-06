@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Job Details</h2>
+    <form>
+        <label for="jobRole">Job Role *</label>
+        <input type="text" id="jobRole" name="jobRole" value="Transportation Representative" readonly><br><br>
+
+        <label for="sourceDetails">How did you find out about this job? *</label>
+        <select id="sourceDetails" name="sourceDetails">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <h2>Personal Details</h2>
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name"><br><br>
+
+        <label for="email">Email Id *</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Id"><br><br>
+
+        <label for="mobile">Mobile Number *</label>
+        <input type="text" id="mobile" name="mobile" placeholder="Enter Mobile Number"><br><br>
+
+        <label for="altMobile">Alternate Mobile Number *</label>
+        <input type="text" id="altMobile" name="altMobile" placeholder="Enter Alternate Mobile Number"><br><br>
+
+        <label for="dob">Date Of Birth - (DD/MM/YYYY)*</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender*</label>
+        <input type="radio" id="male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female
+        <input type="radio" id="noSpecify" name="gender" value="I choose not to specify"> I choose not to specify<br><br>
+
+        <h2>Citizenship</h2>
+        <label for="citizenship">Citizenship *</label>
+        <select id="citizenship" name="citizenship">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <h2>Disability</h2>
+        <label for="disability">Voluntary Self-Identification of Disability? *</label>
+        <select id="disability" name="disability">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <h2>Address Details</h2>
+        <label for="address">Full Address (House No, Floor, Building, Street) *</label>
+        <input type="text" id="address" name="address" placeholder="Enter Full Address"><br><br>
+
+        <label for="city">Current City *</label>
+        <select id="city" name="city">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="state">Current State *</label>
+        <select id="state" name="state">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="pin">Pin Code *</label>
+        <input type="text" id="pin" name="pin" placeholder="Enter Pin Code"><br><br>
+
+        <h2>Highest Education Profile</h2>
+        <label for="degree">Highest Degree *</label>
+        <select id="degree" name="degree">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="passingYear">Year of Passing *</label>
+        <select id="passingYear" name="passingYear">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="educationType">Education Type *</label>
+        <select id="educationType" name="educationType">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <h2>Experience Details</h2>
+        <label for="totalExperience">Total Experience (In Months) *</label>
+        <input type="text" id="totalExperience" name="totalExperience" placeholder="Enter Total Experience"><br><br>
+
+        <label for="currentWorking">Are you working currently? *</label>
+        <select id="currentWorking" name="currentWorking">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="noticePeriod">Notice Period *</label>
+        <select id="noticePeriod" name="noticePeriod">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="currentEmployer">Current Employer/Last Employer *</label>
+        <input type="text" id="currentEmployer" name="currentEmployer" placeholder="Enter Current/Last Employer"><br><br>
+
+        <label for="currentSalary">Current Monthly Salary/Last Withdrawn Monthly Salary in INR *</label>
+        <input type="text" id="currentSalary" name="currentSalary" placeholder="Enter Monthly Salary"><br><br>
+
+        <h2>Other Details</h2>
+        <label for="backlogs">Do you have any active/current backlogs? *</label>
+        <select id="backlogs" name="backlogs">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="overtime">Are you willing to work overtime as per business requirements? *</label>
+        <select id="overtime" name="overtime">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="shifts">Are you willing to work in rotational shifts & week offs if there is a business requirement? *</label>
+        <select id="shifts" name="shifts">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="relocate">Are you willing to relocate to the location mentioned in the respective Job description? *</label>
+        <select id="relocate" name="relocate">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="customerInteraction">Are you willing to be in a job that may require interacting with customers via Telephone or E-mail? *</label>
+        <select id="customerInteraction" name="customerInteraction">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="excelKnowledge">Knowledge in MS Excel (pivot tables, VLOOKUP's) *</label>
+        <select id="excelKnowledge" name="excelKnowledge">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="pan">PAN *</label>
+        <input type="text" id="pan" name="pan" placeholder="Enter PAN"><br><br>
+
+        <label for="aadhaar">Do you have E-Aadhaar Card? *</label>
+        <select id="aadhaar" name="aadhaar">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="prevEmployed">Have you ever been employed at Amazon? *</label>
+        <select id="prevEmployed" name="prevEmployed">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <label for="currentAmazon">Are you currently working with Amazon? *</label>
+        <select id="currentAmazon" name="currentAmazon">
+            <option value="">--Select--</option>
+        </select><br><br>
+
+        <h2>Documents</h2>
+        <label for="resume">Resume/CV *</label>
+        <input type="file" id="resume" name="resume" accept=".doc,.docx,.pdf,.txt"><br><br>
+
+        <label for="photo">Photo *</label>
+        <input type="file" id="photo" name="photo" accept=".png,.gif,.jpeg,.jpg"><br><br>
+
+        <label for="declaration">Declaration & Consent</label>
+        <input type="checkbox" id="declaration" name="declaration"> I confirm my understanding of the provided information<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
